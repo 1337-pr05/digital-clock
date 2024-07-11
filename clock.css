@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    background-image: url("pic.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    backdrop-filter: blur(2px) ;
+    background-color:hsl(0%, 0%,100%,0.107);}
+
+#clock-container {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    border: 5px;
+    /* position:absolute; */
+}
+#clock{
+    font-family:-apple-system;
+    font-size: 9.5rem;
+    color:white;
+    align-items: center;
+    font-weight: bold;
+    backdrop-filter: blur(5px) ;
+    background-color:hsl(0%, 0%,100%,0.107);
+}
+#date{
+    font-family:-apple-system;
+    font-size: 2.5rem;
+    color:white;
+    align-items: center;
+    font-weight: bold;
+    backdrop-filter: blur(5px) ;
+    /* background-color:hsl(0%, 0%,100%,0.107);*/
+    margin-left: 100vh; 
+}
